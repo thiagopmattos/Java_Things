@@ -4,13 +4,14 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Conta conta1 = new Conta("12345",5674,2000,true);
+        Conta conta2 = new Conta("12098",1627,2500,false);
 
-    Pizzaria doisImaos = new Pizzaria();
-    doisImaos.diaDeHoje();
+        conta1.mostrarAtributos();
+        conta2.mostrarAtributos();
 
     }
 
 
 }
 
-// uma pizzaria que dia impar ela serve um sabor e dia par outro, a cada dez dias muda os dois sabores.
